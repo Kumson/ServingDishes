@@ -2,11 +2,43 @@
   "pages": [
     "pages/index/index"
   ],
+  
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#EDEEE7",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "上菜啦"
+  },
+  "tabBar": {
+   "color": "#a9b7b7",
+    "selectedColor": "black",
+    "backgroundColor": "#7FA500",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "订单",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "已上架",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "菜品库",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png"
+      }
+    ]
   }
 }
